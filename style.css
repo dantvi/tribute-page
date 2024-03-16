@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 html {
     box-sizing: border-box;
 }
@@ -5,4 +7,28 @@ html {
 body {
     margin: 0;
     min-height: 100vh;
+    font-family: Montserrat, sans-serif;
+    background: url(./img/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.overlay {
+    background: rgba(255, 255, 255, 0.35);
+    margin: 2% auto;
+    width: 80%;
+    max-width: 1400px;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 1.3rem;
 }
