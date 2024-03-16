@@ -8,6 +8,7 @@ body {
     margin: 0;
     min-height: 100vh;
     font-family: Montserrat, sans-serif;
+    color: whitesmoke;
     background: url(./img/background.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -23,12 +24,35 @@ header {
     text-align: center;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+li {
+    padding-bottom: 20px;
+}
+
+a {
+    color: whitesmoke;
+}
+
+a:hover {
+    color: #e30022;
+}
+
 .overlay {
-    background: rgba(255, 255, 255, 0.35);
+    background: rgba(43.9, 50.2, 56.5, 0.8);
     margin: 2% auto;
     width: 80%;
     max-width: 1400px;
     padding: 30px;
     border-radius: 10px;
     font-size: 1.3rem;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
 }
